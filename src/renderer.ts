@@ -17,7 +17,10 @@ env.addFilter("formatDate", function (dateString): string {
 	return !isNaN(date.getTime()) ? date.toLocaleDateString() : dateString;
 });
 
-env.addGlobal("now", new Date().toLocaleString());
+env.addGlobal(
+	"now",
+	new Date().toLocaleString("en-US", { timeZone: "America/New_York" })
+);
 
 // load the template
 const template: string = (
