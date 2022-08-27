@@ -1,22 +1,27 @@
 {
-  "Web Development": [
-    "https://hacks.mozilla.org/feed/",    
-    "https://web.dev/feed.xml",
-    "https://v8.dev/blog.atom",
-    "https://alistapart.com/main/feed/",
-    "https://css-tricks.com/feed/",
-    "https://dev.to/feed"
-  ],
-  "Blogs": [
-    "https://george.mand.is/feed.xml",
-    "https://joy.recurse.com/feed.atom"
-  ],
-  "My GitHub Projects": [
-    "https://github.com/georgemandis.atom",
-    "https://github.com/georgemandis/bubo-rss/releases.atom",
-    "https://github.com/georgemandis/konami-js/releases.atom",
-    "https://github.com/georgemandis/konami-js/commits/main.atom",
-    "https://github.com/javascriptforartists/cheer-me-up-and-sing-me-a-song/commits/master.atom",
-    "https://github.com/georgemandis/circuit-playground-midi-multi-tool/commits/master.atom"    
-  ]
+	"Web Development": [
+		"https://hacks.mozilla.org/feed/",
+		"https://web.dev/feed.xml",
+		"https://v8.dev/blog.atom",
+		"https://alistapart.com/main/feed/",
+		"https://css-tricks.com/feed/",
+		"https://dev.to/feed"
+	],
+	"Physics & Math": [
+		"https://phys.org/rss-feed/breaking/physics-news/quantum-physics/",
+		"https://api.quantamagazine.org/feed/",
+		"https://openai.com/feed.xml?format=xml"
+	],
+	"Law": [
+		"https://feeds.feedburner.com/abajournal/topstories",
+		"https://www.scotusblog.com/feed/"
+	],
+	"News": [
+		"https://api.axios.com/feed/",
+		"https://rss.app/feeds/ThryaI64JthIUqOe.xml",
+		"http://feeds.bbci.co.uk/news/rss.xml",
+		"https://rss.app/feeds/Vt7GAjHlABatJT7I.xml",
+		"https://www.dailywire.com/feeds/rss.xml"
+	],
+	"Web 3.0": ["https://rss.app/feeds/BSdraJtrDJBRuUX7.xml"]
 }
