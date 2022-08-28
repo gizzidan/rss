@@ -9,7 +9,7 @@
 	"Physics & Math": [
 		"https://phys.org/rss-feed/breaking/physics-news/quantum-physics/",
 		"https://api.quantamagazine.org/feed/",
-		"http://export.arxiv.org/api/query?search_query=(cat:quant-ph)&sortBy=lastUpdatedDate&sortOrder=descending&max_results=20"
+		"https://export.arxiv.org/rss/quant-ph/new?skip=0&show=2000&version=atom_1.0"
 	],
 	"Law": [
 		"https://feeds.feedburner.com/abajournal/topstories",
