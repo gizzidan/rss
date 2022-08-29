@@ -21,13 +21,22 @@
       <ul>
         {% for item in feed.items %}
         <li>
-          {{ item.timestamp | formatDate }} -
-          <a
-            href="{{ item.link }}"
-            target="_blank"
-            rel="noopener norefferer nofollow"
-            >{{ item.title }}</a
-          >
+          <article class="item">
+            <header class="item__header">
+              <a href="{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>
+                {{ item.title }}
+              </a>
+            </header>
+            <small>
+              <ul class="article-links">
+                <li class="monospace">
+                  {{ item.timestamp | formatDate }}
+                </li>
+                    <li><a href="https://txtify.it/{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>txtify</a>
+                    </li>
+              </ul>
+            </small>
+          </article>
         </li>
         {% endfor %}
       </ul>
