@@ -7,6 +7,10 @@
   --bg-color: #fff;
   --faded-bg: #fff;
 
+  --timestamp-width: 7rem;
+  --timestamp-padding-right: 0.4rem;
+  --timestamp-display: none;
+
   --title-font-size: 17px;
   --title-font-weight: 400;
 
@@ -19,9 +23,9 @@
     --title-font-size: 19px;
   }
   .item-timestamp {
-    width: 9rem;
-    padding-right: 0.4rem;
-    display: inline-block;
+    --timestamp-width: 9rem;
+    --timestamp-padding-right: 0.4rem;
+    --timestamp-display: inline-block;
   }
 }
 @media (prefers-color-scheme: dark) {
@@ -125,10 +129,10 @@ article.item {
 
 .item-timestamp {
   font-family: monospace;
-  display: none;
-  width: 7rem;
+  display: var(--timestamp-display);
+  width: var(--timestamp-width);
   text-align: right;
-  padding-right: 0.4rem;
+  padding-right: var(--timestamp-padding-right);
 }
 
 ul.article-links {
