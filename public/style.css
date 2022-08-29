@@ -13,7 +13,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --color: #ddd;
+    --color: #fff;
     --bg-color: #151515;
     --faded-bg: #1b1b1b;
   }
@@ -67,11 +67,11 @@ summary {
 }
 
 a:link {
-  color: inherit;
+  color: rgb(205, 125, 251);
 }
 
 a:visited {
-  color: #b58c8c;
+  color: #6d416e;
 }
 
 a:hover {
