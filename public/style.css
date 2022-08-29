@@ -155,7 +155,7 @@ ul.article-links>li {
 }
 
 @media screen and (max-width: 680px) {
-  item.timestamp {
+  .item.timestamp {
     display: none;
   }
   article.item {
