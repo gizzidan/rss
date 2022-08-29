@@ -122,11 +122,6 @@ article.item {
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
   background-color: var(--faded-bg);
-  @media screen and (max-width: 500px) {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    padding: 0.1rem 0.1rem;
-  }
 }
 
 .item-title {
@@ -137,11 +132,7 @@ article.item {
   display: inline-block;
   vertical-align: top;
   width: 65vw;
-  @media screen and (max-width: 500px) {
-    width: 50vw;
-  }
 
-}
 
 .item-timestamp {
   font-family: monospace;
@@ -161,5 +152,16 @@ ul.article-links {
 ul.article-links>li {
   display: inline-block;
   margin-right: .5rem;
+}
+
+@media screen and (max-width: 500px) {
+  article.item {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.1rem;
+  }
+  .title-wrap {
+    width: 50vw;
+  }
 }
 
