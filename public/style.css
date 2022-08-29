@@ -9,7 +9,6 @@
 
   --timestamp-width: 7rem;
   --timestamp-padding-right: 0.4rem;
-  --timestamp-display: inline-block;
 
   --title-font-size: 16px;
   --title-font-weight: 400;
@@ -25,7 +24,6 @@
   .item-timestamp {
     --timestamp-width: 8rem;
     --timestamp-padding-right: 0.4rem;
-    --timestamp-display: inline-block;
   }
 }
 
@@ -136,7 +134,7 @@ article.item {
 
 .item-timestamp {
   font-family: monospace;
-  display: var(--timestamp-display);
+  display: inline-block;
   width: var(--timestamp-width);
   text-align: right;
   padding-right: var(--timestamp-padding-right);
