@@ -88,7 +88,7 @@ summary {
   color: var(--link-color);
 }
 
-.txtify{
+.txtify, .txtify > a:link{
   color: var(--grey);
 }
 
@@ -106,11 +106,11 @@ header {
 
 article.item {
   max-width: 85%;
-  padding: 0.3rem 0.5rem;
+  padding: 0.2rem 0.2rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-top: 0.1rem;
-  margin-bottom: 0.3rem;
+  margin-bottom: 0.2rem;
   background-color: var(--faded-bg);
 }
 
@@ -120,6 +120,7 @@ article.item {
 
 .item-timestamp {
   font-family: monospace;
+  display: inline-block;
   width: 3rem;
 }
 
