@@ -156,8 +156,8 @@ ul.article-links>li {
 
 @media screen and (max-width: 500px) {
   article.item {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
+    margin-left: 0.1rem;
+    margin-right: 0.1rem;
     padding: 0.1rem 0.1rem;
   }
   .title-wrap {
