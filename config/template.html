@@ -27,13 +27,13 @@
           <article class="item">
             <header>
               <span class="item-timestamp">{{ item.timestamp | formatDate }} -</span>
-              <span>
+              <span class="title-wrap">
                 <a class="item-title" href="{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>
                   {{ item.title }}
                 </a>
-              </span>
-              <span class="txtify" >
-                 (<a href="https://txtify.it/{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>txtify</a>)
+                <span class="txtify" >
+                  (<a href="https://txtify.it/{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>txtify</a>)
+                </span>
               </span>
             </header>
           </article>

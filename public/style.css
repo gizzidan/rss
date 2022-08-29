@@ -23,7 +23,7 @@
     --title-font-size: 19px;
   }
   .item-timestamp {
-    --timestamp-width: 9rem;
+    --timestamp-width: 8rem;
     --timestamp-padding-right: 0.4rem;
     --timestamp-display: inline-block;
   }
@@ -125,6 +125,10 @@ article.item {
 
 .item-title {
   font-size: var(--title-font-size);
+}
+
+.title-wrap {
+  text-indent: -50px;
 }
 
 .item-timestamp {
