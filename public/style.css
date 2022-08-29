@@ -120,7 +120,7 @@ article.item {
 
 .item-timestamp {
   font-family: monospace;
-  text-align: right;
+  width: 3rem;
 }
 
 ul.article-links {
