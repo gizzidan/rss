@@ -28,6 +28,7 @@
     --timestamp-display: inline-block;
   }
 }
+
 @media (prefers-color-scheme: dark) {
   :root {
     --color: #fff;
@@ -121,6 +122,11 @@ article.item {
   margin-top: 0.1rem;
   margin-bottom: 0.2rem;
   background-color: var(--faded-bg);
+  @media screen and (max-width: 500px) {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    padding: 0.1rem 0.1rem;
+  }
 }
 
 .item-title {
@@ -131,6 +137,9 @@ article.item {
   display: inline-block;
   vertical-align: top;
   width: 65vw;
+  @media screen and (max-width: 500px) {
+    width: 50vw;
+  }
 
 }
 
