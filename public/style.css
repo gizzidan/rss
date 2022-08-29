@@ -46,7 +46,7 @@ summary {
   font-size: var(--title-font-size);
 }
 
-.feed-url {
+.feed-url .feed-timestamp {
   color: #aaa;
 }
 
@@ -67,12 +67,12 @@ a:hover {
 }
 
 header {
-  padding-top: 1rem;
+  padding-top: 0.3rem;
 }
 
 article.item {
   max-width: 85%;
-  padding: 0.15rem 0.75rem;
+  padding: 0.5rem 0.75rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-top: 0.5rem;
@@ -87,6 +87,7 @@ article.item header.item__header {
 ul.article-links {
   list-style: none;
   padding-left: 0;
+  padding-top: 0.3rem;
 }
 
 ul.article-links>li {
