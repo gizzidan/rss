@@ -84,12 +84,12 @@ summary {
   margin-left: 1.2rem;
 }
 
-header > .item-title {
+.item-title {
   color: var(--link-color);
 }
 
-a:link {
-  color:inherit;
+.txtify{
+  color: var(--grey);
 }
 
 a:visited {
@@ -106,11 +106,11 @@ header {
 
 article.item {
   max-width: 85%;
-  padding: 0.5rem 0.75rem;
+  padding: 0.3rem 0.5rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
   margin-top: 0.1rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 0.3rem;
   background-color: var(--faded-bg);
 }
 

@@ -29,7 +29,7 @@
               <span class="item-timestamp">{{ item.timestamp | formatDate }} -</span>
               <a class="item-title" href="{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>
                 {{ item.title }}
-              </a> (<a href="https://txtify.it/{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>txtify</a>)
+              </a> (<a class="txtify" href="https://txtify.it/{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>txtify</a>)
             </header>
           </article>
         {% endfor %}
