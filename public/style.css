@@ -9,7 +9,7 @@
 
   --timestamp-width: 7rem;
   --timestamp-padding-right: 0.4rem;
-  --timestamp-display: none;
+  --timestamp-display: inline-block;
 
   --title-font-size: 17px;
   --title-font-weight: 400;
@@ -128,7 +128,10 @@ article.item {
 }
 
 .title-wrap {
-  text-indent: -50px;
+  display: inline-block;
+  vertical-align: top;
+  width: 65vw;
+
 }
 
 .item-timestamp {
