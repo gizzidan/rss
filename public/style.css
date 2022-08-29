@@ -5,7 +5,7 @@
   --bg-color: #fffff8;
   --faded-bg: #f9f9f2;
 
-  --title-font-size: 16px;
+  --title-font-size: 19px;
   --title-font-weight: 600;
 
   --main-padding-right: 8rem;
@@ -51,7 +51,7 @@ summary {
 }
 
 .feed-timestamp {
-  margin-left: 1.45rem;
+  margin-left: 1.2rem;
 }
 
 a:link {
@@ -64,6 +64,10 @@ a:visited {
 
 a:hover {
   opacity: .75;
+}
+
+header {
+  padding-top: 1rem;
 }
 
 article.item {

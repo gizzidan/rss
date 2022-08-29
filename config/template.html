@@ -27,7 +27,6 @@
       </summary>
       <ul class="article-links">
         {% for item in feed.items %}
-        <li>
           <article class="item">
             <header class="item__header">
               <a href="{{ item.link }}" target='_blank' rel='noopener norefferer nofollow'>
@@ -44,7 +43,6 @@
               </ul>
             </small>
           </article>
-        </li>
         {% endfor %}
       </ul>
     </details>
