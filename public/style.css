@@ -114,8 +114,12 @@ article.item {
   background-color: var(--faded-bg);
 }
 
-article.item header.item__header {
+.item-title {
   font-size: var(--title-font-size);
+}
+
+.item-timestamp {
+  font-family: monospace;
 }
 
 ul.article-links {
@@ -130,6 +134,3 @@ ul.article-links>li {
   margin-right: .5rem;
 }
 
-.monospace {
-  font-family: monospace
-}
