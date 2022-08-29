@@ -11,8 +11,6 @@
  */
 
 import fetch from "node-fetch";
-import { writeFileSync } from "fs";
-import { join } from "path";
 import Parser from "rss-parser";
 import { Feeds, FeedItem } from "./@types/bubo";
 import { Response } from "node-fetch";
