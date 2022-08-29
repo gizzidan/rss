@@ -21,9 +21,6 @@
             ({{ feed.feed }})
           </small>
         </span>
-        <div class="feed-timestamp">
-          <small>Latest: {{ feed.items[0].timestamp | formatDate}}</small>
-        </div>
       </summary>
       <ul class="article-links">
         {% for item in feed.items %}
