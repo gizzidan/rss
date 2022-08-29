@@ -59,14 +59,14 @@ summary {
 }
 
 .feed-url .feed-timestamp {
-  color: #aaa;
+  color: #aaa !important;
 }
 
 .feed-timestamp {
   margin-left: 1.2rem;
 }
 
-a:link {
+header > a:link {
   color: rgb(205, 125, 251);
 }
 
