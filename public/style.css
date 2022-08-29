@@ -1,11 +1,11 @@
 :root {
-  --font-size: 18px;
+  --font-size: 16px;
 
   --color: #111;
   --bg-color: #fffff8;
   --faded-bg: #f9f9f2;
 
-  --title-font-size: 19px;
+  --title-font-size: 18px;
   --title-font-weight: 600;
 
   --main-padding-right: 8rem;
