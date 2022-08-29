@@ -57,11 +57,14 @@ summary {
   cursor: pointer;
   font-family: monospace;
   background-color: var(--bg-color);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
 }
 
 .feed-title {
   font-weight: var(--title-font-weight);
   font-size: var(--title-font-size);
+
 }
 
 .feed-url, .feed-timestamp {
