@@ -11,7 +11,7 @@
   --timestamp-padding-right: 0.4rem;
   --timestamp-display: inline-block;
 
-  --title-font-size: 17px;
+  --title-font-size: 16px;
   --title-font-weight: 400;
 
   --main-padding-right: 8rem;
@@ -154,14 +154,17 @@ ul.article-links>li {
   margin-right: .5rem;
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 680px) {
+  item.timestamp {
+    display: none;
+  }
   article.item {
     margin-left: 0.1rem;
     margin-right: 0.1rem;
     padding: 0.1rem 0.1rem;
   }
   .title-wrap {
-    width: 50vw;
+    width: auto;
   }
 }
 
