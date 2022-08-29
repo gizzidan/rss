@@ -22,7 +22,7 @@
 @keyframes details-show {
   from {
     opacity: 0;
-    transform: var(--details-translate, translateY(-0.5em));
+    transform: translateY(-.5em);
   }
 }
 
@@ -58,8 +58,8 @@ summary {
   font-size: var(--title-font-size);
 }
 
-.feed-url .feed-timestamp {
-  color: #aaa !important;
+.feed-url, .feed-timestamp {
+  color: #aaa;
 }
 
 .feed-timestamp {
@@ -68,6 +68,10 @@ summary {
 
 header > a:link {
   color: rgb(205, 125, 251);
+}
+
+a:link {
+  color:inherit;
 }
 
 a:visited {
@@ -87,8 +91,8 @@ article.item {
   padding: 0.5rem 0.75rem;
   margin-left: 1.5rem;
   margin-right: 1.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-top: 0.1rem;
+  margin-bottom: 1rem;
   background-color: var(--faded-bg);
 }
 
@@ -100,6 +104,7 @@ ul.article-links {
   list-style: none;
   padding-left: 0;
   padding-top: 0.5rem;
+  margin-top: 0;
 }
 
 ul.article-links>li {
