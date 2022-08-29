@@ -121,7 +121,7 @@ article.item {
 .item-timestamp {
   font-family: monospace;
   display: inline-block;
-  width: 3rem;
+  width: 4rem;
 }
 
 ul.article-links {
