@@ -16,7 +16,7 @@
 		"https://www.scotusblog.com/feed/"
 	],
 	"News": [
-		"http://feeds.propublica.org/propublica/main",
+		"https://www.propublica.org/feeds/propublica/main",
 		"https://jacobin.com/feed/",
 		"https://www.dailywire.com/feeds/rss.xml",
 		"https://feeds.npr.org/1001/rss.xml",
