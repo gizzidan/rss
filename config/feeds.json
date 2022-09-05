@@ -16,11 +16,11 @@
 		"https://www.scotusblog.com/feed/"
 	],
 	"News": [
-		"https://politepol.com/fd/yiKtKMgRAnhy",
-		"http://feeds.bbci.co.uk/news/rss.xml",
-		"https://rss.app/feeds/Vt7GAjHlABatJT7I.xml",
+		"http://feeds.propublica.org/propublica/main",
+		"https://jacobin.com/feed/",
 		"https://www.dailywire.com/feeds/rss.xml",
+		"https://feeds.npr.org/1001/rss.xml",
+		"http://feeds.bbci.co.uk/news/rss.xml",
 		"https://api.axios.com/feed/"
-	],
-	"Web 3.0": ["https://rss.app/feeds/BSdraJtrDJBRuUX7.xml"]
+	]
 }
