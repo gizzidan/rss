@@ -15,7 +15,7 @@ import { Feeds, JSONValue } from "./@types/bubo";
 env.addFilter("formatDate", function (dateString): string {
 	const date: Date = new Date(parseInt(dateString));
 	return !isNaN(date.getTime())
-		? date.toLocaleString("en-US", { timeZone: "America/New_York" })
+		? date.toLocaleDateString("en-US", { timeZone: "America/New_York" })
 		: dateString;
 });
 
